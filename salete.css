@@ -1,0 +1,232 @@
+body {
+    background-color: #FFEBEB;
+    display: grid;
+    padding: 2%;
+}
+
+.container {
+    display: grid;
+    justify-content: end;
+    padding: 2%;
+    grid-template-columns: 12% 10%;
+    font-family: 'Arial', sans-serif;
+    gap: 1.75%;
+    text-align: end;
+    font-size: 1.875rem;
+    color: #8B0000;
+}
+
+.link {
+    color: #8B0000;
+    text-decoration: none;
+}
+
+h1 {
+    color: #8B0000;
+    font-size: 12.5REM;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 8%;
+}
+
+h2 {
+    color: rgba(139, 0, 0, 0.55);
+    font-size: 5.375rem;
+    font-family: 'Italiana';
+    margin: auto;
+}
+
+.name {
+    display: grid;
+    justify-content: flex-start;
+}
+
+
+.surname {
+    display: grid;
+    justify-content: space-evenly;
+}
+
+.Portfólio {
+    display: grid;
+    justify-content: end;
+    position: relative;
+    right: 10%;
+}
+
+.internet {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-items: center;
+    column-gap: 10%;
+    background-color: #8B0000;
+    width: fit-content;
+    padding: 1%;
+}
+
+.internet img {
+    width: 100%;
+}
+
+h3 {
+    color: #8B0000;
+    font-family: 'Arial', sans-serif;
+    font-size: 3.125rem;
+    margin: 0%;
+}
+
+section {
+    padding-top: 2%;
+}
+
+/* parte 1 */
+.title {
+    display: grid;
+    font-family: 'Italiana';
+    font-size: 2rem;
+    color: #ffffff;
+    background-color: #8B0000;
+    width: fit-content;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.foto {
+    display: grid;
+    padding-left: 8%;
+}
+
+.foto img {
+    width: 50%;
+    padding-top: 1%;
+}
+
+.sinopse {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.7rem;
+    color: #ffffff;
+    background-color: #8B0000;
+    padding: 1%;
+    width: fit-content;
+    position: relative;
+    left: 46%;
+}
+
+.frase {
+    position: relative;
+    bottom: 21%;
+    /* left: 46%; */
+}
+
+/* parte 2 */
+.sinopse2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.7rem;
+    color: #ffffff;
+    background-color: #8B0000;
+    padding: 1%;
+    width: fit-content;
+    position: relative;
+    left: 40%;
+}
+
+.foto2 {
+    display: grid;
+    padding-left: 10%;
+}
+
+.foto2 img {
+    width: 45%;
+    padding-top: 1%;
+}
+
+.frase2 {
+    position: relative;
+    bottom: 21%;
+    /* left: 40%; */
+}
+
+/* parte 3 */
+.sinopse3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.7rem;
+    color: #ffffff;
+    background-color: #8B0000;
+    padding: 1%;
+    width: fit-content;
+    position: relative;
+    left: 35%;
+}
+
+.foto3 {
+    display: grid;
+    padding-left: 17%;
+}
+
+.foto3 img {
+    width: 27%;
+    padding-top: 1%;
+}
+
+.frase3 {
+    position: relative;
+    bottom: 21%;
+    /* left: 26%; */
+}
+
+/* parte 4 */
+.sinopse4 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.7rem;
+    color: #ffffff;
+    background-color: #8B0000;
+    padding: 1%;
+    width: fit-content;
+    position: relative;
+    left: 46%;
+}
+
+.foto4 {
+    display: grid;
+    padding-left: 8%;
+}
+
+.foto4 img {
+    width: 45%;
+    padding-top: 1%;
+}
+
+.frase4 {
+    position: relative;
+    bottom: 21%;
+    /* left: 46%; */
+}
+
+/* parte 5 */
+.sinopse5 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.7rem;
+    color: #ffffff;
+    background-color: #8B0000;
+    padding: 1%;
+    width: fit-content;
+    position: relative;
+    left: 45%;
+}
+
+.foto5 {
+    display: grid;
+    padding-left: 8%;
+}
+
+.foto5 img {
+    width: 50%;
+    padding-top: 1%;
+}
+
+.frase5 {
+    position: relative;
+    bottom: 10%;
+    /* left: 30%; */
+}

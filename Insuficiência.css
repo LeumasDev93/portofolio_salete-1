@@ -1,0 +1,129 @@
+body {
+    background-color: #FFEBEB;
+    display: grid;
+    margin: 0%;
+}
+
+header {
+    padding: 2%;
+}
+
+.container {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: auto auto;
+    font-family: 'Arial', sans-serif;
+    color: rgba(139, 0, 0, 0.55);
+}
+.container img {
+    width: 80%;
+}
+
+.inicio {
+    display: grid;
+    row-gap: 10%;
+    padding: 5%;
+}
+
+.title {
+    display: grid;
+    font-family: 'Italiana';
+    font-size: 3rem;
+    color: #ffffff;
+    background-color: #8B0000;
+    width: fit-content;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.oque {
+    display: grid;
+    color: #8B0000;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+}
+
+.Objetivo {
+    background-color: #8B0000;
+}
+
+.objetivo1 {
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.7rem;
+}
+
+.objetivo2 {
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+}
+
+.inicio1 {
+    display: grid;
+    row-gap: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.inicio3 {
+    display: grid;
+    row-gap: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.frase {
+    font-family: 'Arial', sans-serif;
+    color: #8B0000;
+    font-size: 1.7rem;
+    margin-bottom: 1%;
+}
+
+.inicio2 {
+    display: grid;
+    row-gap: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.Mockups {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: auto;
+    padding-right: 2%;
+    column-gap: 2%;
+}
+
+.Mockups img {
+    width: 60%;
+}
+
+.Mockups::-webkit-scrollbar {
+    width: 0;
+}
+
+footer {
+    display: grid;
+    justify-content: end;
+    padding: 2%;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-color: #8B0000;
+    width: fit-content;
+}
+
+.credito {
+    font-size: 1.3rem;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 2%;
+}

@@ -1,0 +1,130 @@
+body {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0%;
+}
+
+header {
+    display: grid;
+    background-color: #FFEBEB;
+    font-family: 'Arial', sans-serif;
+    color: #8B0000;
+    padding: 5%;
+}
+
+.Home {
+    font-size: 1.875rem;
+}
+
+.link {
+    color: #8B0000;
+    text-decoration: none;
+}
+
+.photo {
+    display: grid;
+    justify-items: center;
+}
+
+img {
+    width: 50%;
+
+}
+
+.born {
+    color: #ffffff;
+    background-color: #8B0000;
+    width: fit-content;
+    padding: 2%;
+    position: relative;
+    bottom: 56%;
+    right: 25%;
+}
+
+.title {
+    padding: 2%;
+}
+
+.Me {
+    padding: 2%;
+    font-size: 1.5rem;
+}
+
+.retangle {
+    background-color: #8B0000;
+    padding: 5%;
+    font-family: 'Arial', sans-serif
+}
+
+h1 {
+    font-family: 'Italiana';
+    font-size: 3rem;
+    margin: 0%;
+}
+
+h2 {
+    font-family: 'Italiana';
+    font-size: 2.375rem;
+}
+
+h3 {
+    font-size: 1.375rem;
+}
+
+h4 {
+    font: caption;
+    font-size: x-large;
+    padding: 3%;
+    margin: 0%;
+}
+
+.Education {
+    color: #ffffff;
+    padding: 3%;
+}
+
+.Technichalskills {
+    color: #ffffff;
+    padding: 3%;
+}
+
+.logo {
+    display: grid;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: repeat(4, 10%);
+    row-gap: 12%;
+    column-gap: 3%;
+    padding: 3%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.Hobbies {
+    color: #ffffff;
+    padding: 3%;
+}
+
+.paragraph {
+    padding: 3%;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 2%;
+}
+
+.internet {
+    display: grid;
+    grid-template-columns: repeat(2, 7%);
+    justify-content: end;
+    align-items: center;
+    column-gap: 2%;
+}
+
+.internet img {
+    width: 100%;
+}
+

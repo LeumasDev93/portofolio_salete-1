@@ -1,0 +1,40 @@
+body {
+    background-color: #FFEBEB;
+    display: grid;
+    margin: 0%;
+}
+
+header {
+    padding: 2%;
+}
+
+.container {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: auto auto;
+    font-family: 'Arial', sans-serif;
+    color: rgba(139, 0, 0, 0.55);
+}
+.container img {
+    width: 80%;
+}
+
+footer {
+    display: grid;
+    justify-content: end;
+    padding: 2%;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-color: #8B0000;
+    width: fit-content;
+}
+
+.credito {
+    font-size: 1.3rem;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 2%;
+}

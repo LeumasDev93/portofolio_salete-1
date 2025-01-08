@@ -111,7 +111,7 @@ header {
 
 footer {
     display: grid;
-    justify-content: end;
+    margin: 2%;
     padding: 2%;
     font-family: 'Arial', sans-serif;
     color: #ffffff;
@@ -127,3 +127,49 @@ li {
     list-style: none;
     margin-bottom: 2%;
 }
+
+/* mobile */
+@media screen and (max-width: 767px) {
+    .container img {
+        width: 50%;
+    }
+
+    .ano {
+        font-size: 0.8rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .oque {
+        font-size: 0.6rem;
+    }
+
+    .objetivo1 {
+        font-size: 0.8rem;
+    }
+
+    .objetivo2 {
+        font-size: 0.6rem;
+    }
+
+    .frase {
+        font-size: 0.8rem;
+    }
+
+    .Sketches img {
+        width: 25%;
+    }
+
+    .credito {
+        font-size: 0.8rem;
+    }
+
+    .people {
+        font-size: 0.6rem;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {}

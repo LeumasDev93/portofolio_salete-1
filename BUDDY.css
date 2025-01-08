@@ -44,9 +44,94 @@ header {
     font-size: 1.5rem;
 }
 
+.Objetivo {
+    background-color: #8B0000;
+}
+
+.inicio1 {
+    display: grid;
+    row-gap: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.objetivo1 {
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.7rem;
+}
+
+.objetivo2 {
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+}
+
+.inicio2 {
+    display: grid;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.frase {
+    font-family: 'Arial', sans-serif;
+    color: #8B0000;
+    font-size: 1.7rem;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+.Sketches {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2%;
+    flex-wrap: nowrap;
+    overflow: auto;
+    padding-right: 2%;
+}
+
+.Sketches img {
+    width: 65%;
+}
+
+.Sketches::-webkit-scrollbar {
+    width: 0;
+}
+
+.frase1 {
+    font-family: 'Arial', sans-serif;
+    color: #8B0000;
+    font-size: 1.7rem;
+}
+
+.inicio3 {
+    display: grid;
+    row-gap: 4%;
+    padding: 5%;
+}
+
+.Photographs {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2%;
+    flex-wrap: nowrap;
+    overflow: auto;
+    padding-right: 2%;
+}
+
+.Photographs img {
+    width: 75%;
+}
+
+.Photographs::-webkit-scrollbar {
+    width: 0;
+}
+
 footer {
     display: grid;
-    justify-content: end;
+    margin: 2%;
     padding: 2%;
     font-family: 'Arial', sans-serif;
     color: #ffffff;
@@ -62,3 +147,49 @@ li {
     list-style: none;
     margin-bottom: 2%;
 }
+
+/* mobile */
+@media screen and (max-width: 767px) {
+    .container img {
+        width: 50%;
+    }
+
+    .ano {
+        font-size: 0.8rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .oque {
+        font-size: 0.6rem;
+    }
+
+    .objetivo1 {
+        font-size: 0.8rem;
+    }
+
+    .objetivo2 {
+        font-size: 0.6rem;
+    }
+
+    .frase {
+        font-size: 0.8rem;
+    }
+
+    .frase1 {
+        font-size: 0.8rem;
+    }
+
+    .credito {
+        font-size: 0.8rem;
+    }
+
+    .people {
+        font-size: 0.6rem;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {}
